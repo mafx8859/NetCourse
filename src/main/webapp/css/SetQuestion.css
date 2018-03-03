@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.select{
+	margin-left:35%;
+	margin-top:50px;
+}
+.ct{
+	margin-left:50px;
+}
+.writeQues{
+	margin-left:27%;
+	margin-top:50px;
+}
+.xuanx{
+	margin-top:20px;
+	margin-left:-53px;
+}
+.xuanx tr td{
+padding-top:10px;	
+}
+.question{
+	margin:0 auto;
+	margin-top:50px;
+	width:500px;
+	border:0px solid blue;
+}
+.make-question{
+	margin:0 auto;
+	width:500px;
+}
+.make-question tr td{
+	padding-top:20px;
+}
+.submitSolution{
+	margin-top:50px;
+	margin-left:595px;
+}
+
+

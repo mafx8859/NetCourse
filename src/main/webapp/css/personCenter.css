@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+.centerDiv{
+	height:220px;
+	background-image:url(../images/temp1.jpg);
+	border:0px solid red;
+}
+#personCenter_dh{
+	margin-top:;
+   margin-left:252px;
+   position:fixed;
+   border:0px solid #CCC;
+   heigth:500px;
+   text-align:center;
+}
+#personCenter_dh li{
+	width:162px;
+	padding-top:50px;
+	list-style:none;
+	border-bottom:1px solid #CCC;
+}
+#personCenter_dh li a{
+	text-decoration:none;
+	color:black;
+	letter-spacing:10px;
+}
+.myCourse{
+	margin-right:15%;
+	width:900px;
+	height:1000px;
+	float:right;
+	border:0px solid red;
+	margin-top:50px;
+}
+#perCenter2{
+	width:500px;
+	padding-top:100px;
+	padding-left:260px;
+	overflow:hidden;
+}
+#perCenter2 li{
+	list-style:none;
+	color:#FFF;
+}
+#perCenter2 li a{
+	color:#FFF;
+}
+#perCenter2 p{
+	color:#FFF;
+}
+.myCourse ul{
+	margin-top:20px;
+}
+.myCourse ul li{
+	list-style:none;
+	border:1px solid red;
+	width:100px;
+	float:right;
+	text-align:center;
+}
+.myCourse ul li a{
+	color:red;
+	text-decoration:none;
+}
+#cz{
+	width:300px;
+	height:300px;
+	border:1px solid #CCC;
+	margin-top:288px;
+	position:fixed;
+	margin-left:410px;
+	background-color:#FFF;
+	display:none;
+}
+#cz table{
+	margin-top:60px;
+	margin-left:20px;
+}
+#cz table tr td{
+	padding-top:20px;
+}

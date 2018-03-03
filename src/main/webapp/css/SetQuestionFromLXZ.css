@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+.ct{
+	width: 70%;
+	height: 600px;
+	margin: 40px auto;
+	background-color: #3cc;
+	border: 1px solid #3cc;
+	border-radius: 15px;
+	box-shadow: 6px 6px 10px #71777d;
+}
+.select{
+	font-size:30px;
+	font-family:"微软雅黑";
+	margin:15px auto;
+	width:600px;
+}
+.writeQues{
+	margin-left:22%;
+}
+.b1{
+	font-size:20px;
+	height:30px;
+	border-radius:3px;
+}
+textarea{
+	word-wrap:"virtual" 
+	overflow-y:auto;
+	width: 600px;
+	height: 220px;
+	resize:none; /*设置禁止textarea改变大小*/
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	margin: -20px 0;
+}
+.s{
+	border-radius:3px;
+	border:1px solid #ccc;
+}
+.xuanx{
+	font-size:16px;
+}
+.fb{
+	font-size:18px;
+	border-radius:3px;
+	width:100px;
+	margin-left:15px;
+}

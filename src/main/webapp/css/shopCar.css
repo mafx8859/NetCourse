@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+.center_top{
+	height:161px;
+	background-image:url(../images/cart-header-bg.jpg);
+}
+.myShopcar_1{
+	padding-top:44px;
+	padding-left:280px;
+	font-size:36px;
+}
+.ShopCarcenter{
+	border-radius:10px;
+	width:1151px;
+	background-color:#FFF;
+	box-shadow: 10px 10px 10px 10px #D9DADC;
+	border:0px solid blue;
+	margin-top:30px;
+	margin-left:257px;
+}
+#shopCar_top_ul1{
+	overflow:hidden;
+}
+#shopCar_top_ul1 li{
+	list-style:none;
+	float:left;
+	margin-left:60px;
+	margin-top:50px;
+}
+#shopCar_top_ul1 .shopCar_money{
+	margin-left:650px;
+}
+#shopCar_top_ul1 .opeation{
+	margin-left:150px;
+}
+.shopCar_Course{
+	border-top:1px solid #D9DADC;
+	margin-top:20px;
+	overflow:hidden;
+}
+.shopCar_Course li{
+	list-style:none;
+	float:left;
+	margin-left:60px;
+	margin-top:20px;
+}
+.shopCar_Course .shopCar_price{
+	margin-left:560px;
+}
+.shopCar_Course .shopCar_gb{
+	margin-left:140px;
+}
+#shopCar_ul2{
+	border:0px solid red;
+	overflow:hidden;
+}
+#shopCar_ul2 li{
+	list-style:none;
+}
+#shopCar_ul2 .goJs{
+	width:100px;
+	height:50px;
+	border-radius:5px;
+	text-align:center;
+	padding-top:20px;
+	float:right;
+	margin-right:20px;
+}
+#shopCar_ul2 .allPrice{
+	width:200px;
+	float:right;
+}
+#shopCar_ul2 .goJs a{
+	text-decoration:none;
+	color:#FFF;
+}
+
+

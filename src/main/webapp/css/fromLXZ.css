@@ -1,0 +1,87 @@
+.addcourse{
+	width: 50%;
+	height: 500px;
+	margin: 60px auto;
+	background-color: #3cc;
+	border: 1px solid #3cc;
+	border-radius: 15px;
+	box-shadow: 6px 6px 10px #71777d;
+}
+.wrap{
+	width: 450px;
+	height: 100%;
+	margin: 0 auto;
+}
+/*.addcourse form{
+	display: inline-block;
+	margin: 10px 50px;
+}*/
+.addcourse span{
+	display: inline-block;
+	margin: 10px;
+	font-size: 23px;
+	font-family: "微软雅黑";
+}
+form span:last-of-type{
+	width: 115px;
+	text-align: justify;
+}
+.besideTextarea{
+	display: inline-block;
+	margin: 10px;
+	margin-right: 0;
+	/*height: 100%;*/
+	font-size: 23px;
+	font-family: "微软雅黑";
+}
+.besideTextarea+div{
+	display: inline-block;
+	height: 100%;
+	vertical-align: top; /*这是让textarea左边的文字对齐到最上面的关键语句。*/
+	margin-top: 10px;
+	font-size: 18px;
+}
+.besideTextarea+div textarea{
+	font-size: 18px;
+}
+#coursename,#coursetype,#price,#issure{
+	/*background-color: #cacaca;*/
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: -1px 0;
+	width: 200px;
+	height: 28px;
+	font-size: 18px;
+}
+#file1,#file2{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: -1px 0;
+	width: 200px;
+	height: 25px;
+	font-size: 15px;
+}
+#coursetext{
+	word-wrap:"virtual" 
+	overflow-y:auto;
+	width: 300px;
+	height: 152px;
+	resize:none; /*设置禁止textarea改变大小*/
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	margin: -1px 0;
+}
+#submit{
+	font-size: 18px;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	margin-right: 30px;
+	float: right;
+	/*margin-top: 5px;*/
+	border-radius: 8px;
+	/*background-color: linear-gradient(to top,#cacaca,#fff,#cacaca);*/
+	cursor: pointer;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
